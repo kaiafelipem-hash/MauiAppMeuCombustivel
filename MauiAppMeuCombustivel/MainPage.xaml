@@ -12,6 +12,12 @@
                 HeightRequest="185"
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a submarine number ten" />
+            <Label Text="Marca do Veículo:" />
+            <Entry x:Name="txt_marca" Placeholder="Ex: Fiat, Chevrolet" />
+
+            <Label Text="Modelo do Veículo:" />
+            <Entry x:Name="txt_modelo" Placeholder="Ex: Uno, Onix" />
+            
             <Label Text="Preço do Etanol:" />
             <Entry x:Name="txt_etanol" Placeholder="R$"/>
            
@@ -20,6 +26,8 @@
 
             <Button Text="Qual compensa mais?" Clicked="Button_Clicked"/>
             
+            <Label x:Name="lbl_resultado" HorizontalOptions="Center" FontSize="18" FontAttributes="Bold" Margin="0,15,0,0" />
+
         </VerticalStackLayout>
     </ScrollView>
 
